@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', serif;
+}
+
+.h1__home {
+    display: flex;
+    background-image: url(./img/portada1-.jpg);
+    height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-bottom: #ff07c9;
+}
+
+.ul {
+    list-style-type: none;
+}
+
+.header__img {
+height: 170px;
+transition: height 2s;
+}
+.header__img :hover{
+    height: 250px;
+
+}
+
+.site-header {
+    display: flex;
+    background-image: url(./img/portada1-.jpg);
+    height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #ff07c9;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    padding: 1rem 2rem;
+}
+
+.nav__item {
+    margin: 0 0 0 1.5rem;
+}
+
+.nav__link {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: solid;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+    opacity: 0.10;
+}
+
+.home__fondo {
+    display: flex;
+    background-color: #000000;
+    padding-block-end: 1rem;
+}
+
+.form__contacto {
+    justify-content: center;
+    align-items: center;
+}
+
+.spanquienes__somos {
+    padding-top: 5rem;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.charo {
+    font-size: 100px;
+    gap: 5rem;
+}
+
+.gallery__productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+    grid-gap: 20px;
+}
+
+.article__productos {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.sectiontalles__1 {
+    background-color: hsl(56, 100%, 53%);
+}
+
+.footer {
+    background-color: rgb(255, 255, 255);
+}
+
+.footer__quienessomos {
+    padding-top: 20rem;
+}
+
+.footer-sm {
+    background-color: #212121;
+    color: white;
+    width: 100%;
+}
+
+.footer-sm__icons {
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.footer-bottom {
+    padding: 1.5rem 0;
+}
+
+.footer-bottom__copyright {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+
+.footer-bottom__copyright a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.footer-bottom__copyright a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
