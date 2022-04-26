@@ -5,94 +5,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--icono barra navegacion-->
     <link rel="shortcut icon " href="img/logo-navegacion.png" type="image/x-icon">
+   <!--CSS-->
     <link rel="stylesheet" href="style.css">
     <!-- FONTAWESOME -->
     <script src="https://kit.fontawesome.com/56d44e58f3.js" crossorigin="anonymous"></script>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet" />
-
+<!--animate css-->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+  <!-- bootstrap CSS -->
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+  crossorigin="anonymous">
+<!--bootstrap iconos-->
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <title>Charo</title>
 </head>
 
 
 <body>
-
     <header class="site-header">
         <a href="index.html">
-            <img class="header__img" src="img/logo-navegacion.png " alt="logo Charo Navegacion "> </a>
-        <nav>
-            <ul class=nav__list>
-                <li class="nav__item">
-                    <a class="nav__link" href="index.html">Home</a></li>
-                <li class="nav__item">
-                    <a class="nav__link" href="informacioncontacto.html">Contacto</a></li>
-                <li class="nav__item">
-                    <a class="nav__link" href="productos.html">Productos</a></li>
-                <li class="nav__item">
-                    <a class="nav__link" href="quienessomos.html">Quienes Somos</a></li>
-                <li class="nav__item">
-                    <a class="nav__link" href="talles.html">Talles</a></li>
+            <img  src="img/logo-navegacion.png " alt="logo Charo Navegacion "> </a>
+            <nav>
+                <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="navlink" href="index.html">Home</a></li>
+                <li class="nav-item">
+                    <a class="navlink" href="informacioncontacto.html">Contacto</a></li>
+                <li class="nav-item">
+                    <a class="navlink" href="productos.html">Productos</a></li>
+                <li class="nav-item">
+                    <a class="navlink" href="quienessomos.html">Quienes Somos</a></li>
+                <li class="nav-item">
+                    <a class="navlink" href="talles.html">Talles</a></li>
 
             </ul>
+            
         </nav>
 
     </header>
-
-    <section>
-        <img src="img/img-logocentralhome.png" alt="marcacharocentral">
-        <div class="home__fondo">
-
-            <article>
-
-                <!--Agregar visitar con un enlace en un futuro a productos-->
-                <img src="img/imagenhomemoda1.png" alt="fotoproduccionmoda">
-            </article>
-
-            <article>
-                <!--Agregar visitar con un enlace en un futuro a productos-->
-                <img src="img/imagenhomemoda2.png" alt="fotoproduccionmoda">
-            </article>
-        </div>
-
-        <h1 class="h1__home">
-            Moda fashionista para todos los estilos. Para todos los cuerpos. Todos los colores
-        </h1>
+        <img class="box-img" src="img/img-logocentralhome.png" alt="marcacharocentral">    
+        <div id="separador-charo">
+            <div class="content bg-dark"></div>
+        </div>   
+        <section class="section">
+            <!--card css-->      
+                <div class="card">
+                    <div class="card-content">
+                        <h2 class="card-content__title">Concepto</h2>
+                        <p class="card-content__body">Moda Fashionista. Para todos los estilos. Para todos cuerpos. Todas las edades.</p>
+                        <a href="/quienessomos.html" class="button">Visitar</a>
+                    </div>
+                </div>
+                <div class="carda">
+                    <div class="card-content">
+                        <h2 class="card-content__title">FW/MEGA</h2>
+                        <p class="card-content__body">Moda Fashionista. Para todos los estilos. Para todos cuerpos. Todas las edades.</p>
+                        <a href="/productos.html" class="button">Visitar</a>
+                    </div>
+                </div>
     </section>
-    </div>
 
-    <!--COMIENZA EL FOOTER-->
-    <footer class="footer">
+
+     <!--COMIENZA EL FOOTER-->
+     <footer>
         <div class="footer-sm">
-            <div class="row footer-sm__icons">
-                <div class="col">
-                    <a href="index.html">
-                        <img class="header__img" src="img/logo-navegacion.png " alt="logo Charo Navegacion "> </a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-
-            <div class="row footer-bottom__copyright">
-                <div class="col">
-
-                    <!-- iconos tarjetas-->
-                    <a href="#"><i class="fa-solid fa-building-columns"></i></a>
-                    <a href="#"><i class="fa-brands fa-cc-mastercard"></i></a>
-                    <a href="#"><i class="fa-brands fa-cc-visa"></i></a>
-                    <a href="#"><i class="fa-brands fa-cc-paypal"></i></a>
-                    <a href="#"><i class="fa-brands fa-cc-amex"></i></a> © Copyright 2022 CHARO
-
-                    <!-- iconos sociales -->
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-
-
-                </div>
-            </div>
+            <!-- iconos tarjetas-->
+            <ul class="ula">
+                <li class="lia"><a href="#"><i class="fa-solid
+                            fa-building-columns"></i></a></li>
+                <li class="lia"> <a href="#"><i class="fa-brands
+                            fa-cc-mastercard"></i></a></li>
+                <li class="lia"><a href="#"><i class="fa-brands fa-cc-visa"></i></a></li>
+                <li class="lia"> <a href="#"><i class="fa-brands
+                            fa-cc-paypal"></i></a></li>
+                <li class="lia"> <a href="#"><i class="fa-brands
+                            fa-cc-amex"></i></a> </li>
+                <!-- iconos sociales -->
+                <li class="lia"> <a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li class="lia"> <a
+                        href="https://www.instagram.com/charolamode/"><i
+                            class="fab fa-instagram"></i></a></li>
+            </ul>
+            <p class="lead text-light">© Copyright 2022 CHARO </p>
         </div>
     </footer>
-
+<!--bootstrat js-->
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+crossorigin="anonymous">
+</script>
 </body>
 
 </html>
